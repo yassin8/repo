@@ -1,0 +1,32 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ad88de0876611d84954638c73f329cf7",
+    "content-hash": "8ff5c2386e86ecfd135113c01f303201",
+    "packages": [
+        {
+            "name": "yhelali/subrepo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yassin8/subrepo.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2016-12-30 09:42:03"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yhelali/subrepo": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

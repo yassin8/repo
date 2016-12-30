@@ -1,0 +1,23 @@
+{
+    "name": "yhelali/repo",
+    "description": "poc repo",
+    "require": {
+        "yhelali/subrepo" : "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "yhelali/subrepo",
+                "version": "dev-master",
+                "source": {
+                    "url": "git@github.com:yassin8/subrepo.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                }
+            }
+        }
+    ]
+}
